@@ -10,7 +10,7 @@ app = FastAPI()
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:5173"],  # Replace * with frontend URL in production
+    allow_origins=["https://fuel-efficiency-prediction-frontend-jyinypalu.vercel.app"],  # Replace * with frontend URL in production
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
