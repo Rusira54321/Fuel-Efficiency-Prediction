@@ -1,0 +1,16 @@
+# Ignore IDE settings
+.idea/
+
+# Byte-compiled files
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+venv/
+env/
+
+# Environment variables
+.env
+
+# Logs
+*.log
