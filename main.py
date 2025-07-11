@@ -10,7 +10,7 @@ app = FastAPI()
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["https://fuel-efficiency-prediction-frontend-jyinypalu.vercel.app"],  # Replace * with frontend URL in production
+    allow_origins=["https://fuel-efficiency-prediction-frontend-jyinypalu.vercel.app","https://fuel-efficiency-prediction-git-96c6d4-rusira-dinujayas-projects.vercel.app"],  # Replace * with frontend URL in production
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
